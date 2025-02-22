@@ -1,7 +1,7 @@
 #!/bin/bash
 gr='\033[1;32m'
 re='\033[1;31m'
-xx='\033[0m'
+xx='\033['
 yw='\033[1;33m'
 bl='\033[0;34m'
 mstnode1="1.1.1 The API server pod specification file permissions are set to 644 or more restrictive by this script"
@@ -55,13 +55,6 @@ echo -en '\n'
 echo ""
 echo -e "${bl} ~Kubernetes Auditing & Hardening Tool~${xx}"
 echo -en '\n'
-echo -e "Script made by:"
-echo -e "Om Patil-240340123033"
-echo -e "Atharv Sathe-240340123013"
-echo -e "Pratham Ingole-240340123037"
-echo -e "Peeyush Shaligram-240340123036"
-echo -e "Uttkarsh Yadav-240340123051"
-
 echo -en '\n'
 echo -e "Scanning and Hardening starting at..." `date`
 echo -en "__________________________________________________________________________________________________________"
